@@ -14,12 +14,12 @@ script = ExtResource("1_l8h54")
 shape = SubResource("CapsuleShape3D_hvfyp")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(-0.999999, 0, 0.00125669, 0, 1, 0, -0.00125669, 0, -0.999999, 0, 0, 0)
 mesh = SubResource("CapsuleMesh_l8h54")
 
 [node name="head" type="Node3D" parent="."]
-transform = Transform3D(0.0231832, 0.787559, 0.615803, -0.0296283, 0.616239, -0.787002, -0.999292, 1.5925e-09, 0.0376204, 0.00294673, 0.837756, 0)
+transform = Transform3D(1, 0, 0, 0, 0.994151, 0.107999, 0, -0.107999, 0.994151, 0.00294673, 0.837756, 0.00104654)
 script = ExtResource("2_4ntmi")
 
 [node name="Camera3D" type="Camera3D" parent="head"]
-transform = Transform3D(0.0116487, -0.036205, -0.999277, 0.782908, 0.621992, -0.013409, 0.622028, -0.782186, 0.0355905, 0, 0, 0)
-fov = 73.078
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0153952, -0.163579, 0.15824)
